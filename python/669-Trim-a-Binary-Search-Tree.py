@@ -1,10 +1,10 @@
 # 669. Trim a Binary Search Tree
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Solution:
     def helper(self, node, L , R):
@@ -27,4 +27,3 @@ class Solution:
             return None
         else:
             return self.helper(root, L,R )   
-            
