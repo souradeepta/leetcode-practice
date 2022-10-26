@@ -22,7 +22,7 @@ def approximate_size(size, a_kilobyte_is_1024_bytes=True):
     for suffix in SUFFIXES[multiple]:
         size /= multiple
         if size < multiple:
-            return "{0:.1f} {1}".format(size, suffix)
+            return f"{size:.1f} {suffix}"
 
     raise ValueError("number too large")
 
