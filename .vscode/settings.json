@@ -1,8 +1,9 @@
 {
-    "python.testing.promptToConfigure": false,
-    "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false,
-    "python.linting.enabled": false,
-    "python.formatting.provider": "black"
+  "python.testing.promptToConfigure": false,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true
 }
